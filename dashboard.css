@@ -1,0 +1,91 @@
+/* General Styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7e5f; /* Vibrant color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #feb47b; /* Border for header */
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+button {
+    background-color: #feb47b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff7e5f;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.animal-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.animal-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.animal-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.animal-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.animal-card:hover {
+    transform: translateY(-10px);
+}
+
+.animal-card .animal-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff7e5f;
+}
+
+.animal-card .animal-description {
+    font-size: 1rem;
+    color: #333;
+}
